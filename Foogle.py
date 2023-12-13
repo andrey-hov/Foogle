@@ -12,7 +12,7 @@ class Finder:
 
     def one_word_query(self, word):
         pattern = re.compile('[\W_]+')
-        word = pattern.sub(' ',word)
+        word = pattern.sub(' ', word)
         if word in self.invertedIndex.keys():
             return self.rankResults([filename for filename in self.invertedIndex[word].keys()], word)
         else:
@@ -26,7 +26,7 @@ class Finder:
             result += self.one_word_query(word)
         return self.rankResults(list(set(result)), string)
 
-    def phrase_query(self, string):
+    def phrase_query(self, string, type_file, exact):
         """
         Принимает фразу и выдает список файлов, в которых она находится
         [file1, file2, ...]
@@ -39,6 +39,9 @@ class Finder:
         setted = set(listOfLists[0]).intersection(*listOfLists)
         for filename in setted:
             temp = []
+            if type_file != '0' and not (type_file in filename):
+                exact
+                continue
             for word in string.split():
                 temp.append(self.invertedIndex[word][filename][:])
             for i in range(len(temp)):
@@ -46,7 +49,10 @@ class Finder:
                     temp[i][ind] -= i
             if set(temp[0]).intersection(*temp):
                 result.append(filename)
-        return self.rankResults(result, string)
+        a = self.rankResults(result, string)
+        if len(a) == 0:
+            return 'Не найдено'
+        return a
 
     def make_vectors(self, documents):
         vecs = {}
@@ -99,3 +105,23 @@ class Finder:
         results.sort(key=lambda x: x[0])
         results = [x[1] for x in results]
         return results
+
+    def check_text(input_text, check_list):
+        input_text = input_text.decode('utf-8')
+        result = []
+        
+        for word in input_text.split(" "):
+            wrd = {}
+            for i in word:
+                for n in check_list:
+                    n = n.decode('utf-8')
+                    for l in n:
+                        if (i == l):
+                            try: wrd[n].append(0)
+                            except: wrd[n] = [0,]
+            for key in wrd.keys():
+                if (len(wrd[key]) > len(word)-2) and \
+                    (len(wrd[key]) <= len(word)):
+                    result.append([word, key])
+                        
+        return result
