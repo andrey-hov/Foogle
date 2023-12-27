@@ -8,4 +8,4 @@ parser.add_argument('type_file', type=str, default="0", help='Тип файла 
 args = parser.parse_args()
 
 if __name__ == "__main__":
-    print(Foogle.Finder(args.folder_path).find(args.phrase[1:-1], args.type_file))
+    print(Foogle.Finder(args.folder_path).find(args.phrase.replace("\"\"", "").replace('_', ' '), args.type_file))
