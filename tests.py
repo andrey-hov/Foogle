@@ -6,7 +6,7 @@ import os
 class Test(unittest.TestCase):
     def test_find(self):
         self.assertEqual(
-            (Foogle.Finder("tests").find("бежала на трех ногах|царевна|лягушка", ".txt"))[0][0],
+            (Foogle.Finder("tests").find("бежала на трех ногах|царевна|лягушка", ".txt"))[0],
             "file1.txt",
         )
 

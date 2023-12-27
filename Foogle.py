@@ -93,9 +93,12 @@ class Finder:
         for phrase in phrases.split('|'):
             a = self.phrase_query(phrase, type)
             if (a is not None):
-                result.append(a)
-        result = set(result)
-        if len(result) == 1 and result.pop() == 'Не найдено':
+                result = [*result, *a]
+        new = set()
+        for i in range(len(result)):
+            if result[i] != 'Не найдено':
+                new.add(result[i])
+        if len(new) == 0:
             result = 'Не найдено'
         return result
 
