@@ -59,7 +59,7 @@ class Finder:
                 result.append(filename)
         a = self.rankResults(result, string)
         if len(a) == 0:
-            return 'Не найдено'
+            return ['Не найдено']
         return a
 
     def make_vectors(self, documents):
@@ -99,8 +99,8 @@ class Finder:
             if result[i] != 'Не найдено':
                 new.add(result[i])
         if len(new) == 0:
-            result = 'Не найдено'
-        return result
+            new = 'Не найдено'
+        return new
 
     def queryFreq(self, term, query):
         count = 0
