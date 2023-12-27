@@ -94,6 +94,9 @@ class Finder:
             a = self.phrase_query(phrase, type)
             if (a is not None):
                 result.append(a)
+        result = set(result)
+        if len(result) == 1 and result.pop() == 'Не найдено':
+            result = 'Не найдено'
         return result
 
     def queryFreq(self, term, query):
