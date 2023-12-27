@@ -17,3 +17,4 @@
 
 НАПРИМЕР: `python main.py "бежала на трех ногах|царевна|королевна" tests .txt`
 `python main.py "королевна|лягушка" tests .txt`
+`python main.py "ёмаё|лягушка" tests .txt`
