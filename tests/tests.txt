@@ -1,0 +1,922 @@
+королевна
+file1.txt 0 
+
+видит
+file1.txt 1 
+
+беду
+file1.txt 2 
+
+неминучую
+file1.txt 3 
+
+высылает
+file1.txt 4 
+
+зиланта
+file1.txt 5 116 
+
+змеулановича
+file1.txt 6 
+
+загремел
+file1.txt 7 
+
+зилант
+file1.txt 8 23 75 
+
+выходя
+file1.txt 9 
+
+из
+file1.txt 10 
+
+железного
+file1.txt 11 
+
+гнезда
+file1.txt 12 
+
+а
+file1.txt 13 56 68 87 112 
+file2.txt 92 
+
+висело
+file1.txt 14 
+
+оно
+file1.txt 15 
+file2.txt 23 
+
+на
+file1.txt 16 19 26 47 62 83 103 109 
+file2.txt 44 
+
+двенадцати
+file1.txt 17 20 
+
+дубах
+file1.txt 18 
+
+цепях
+file1.txt 21 
+
+несется
+file1.txt 22 
+
+как
+file1.txt 24 29 96 
+file2.txt 6 29 57 
+
+стрела
+file1.txt 25 
+
+орла
+file1.txt 27 
+
+зовет
+file1.txt 28 
+
+трубой
+file1.txt 30 
+
+переведаться
+file1.txt 31 
+
+в
+file1.txt 32 
+file2.txt 62 68 
+
+бой
+file1.txt 33 
+
+да
+file1.txt 34 
+file2.txt 106 
+
+ёмаё
+file1.txt 35 36 
+file2.txt 107 
+
+видно
+file1.txt 37 
+
+мне
+file1.txt 38 50 
+
+очередь
+file1.txt 39 
+
+сказал
+file1.txt 40 
+
+голь
+file1.txt 41 60 88 
+
+нечего
+file1.txt 42 
+
+делать
+file1.txt 43 
+
+подумал
+file1.txt 44 
+
+он
+file1.txt 45 
+file2.txt 100 
+
+ехать
+file1.txt 46 
+
+смерть
+file1.txt 48 
+
+тут
+file1.txt 49 
+
+и
+file1.txt 51 80 93 98 
+file2.txt 33 36 38 65 76 84 
+
+конец
+file1.txt 52 
+
+зато
+file1.txt 53 
+
+богатырская
+file1.txt 54 
+
+честь
+file1.txt 55 
+
+делу
+file1.txt 57 
+
+венец
+file1.txt 58 
+
+перекрестился
+file1.txt 59 
+
+сел
+file1.txt 61 
+
+клячонку
+file1.txt 63 
+
+едет
+file1.txt 64 
+
+потихоньку
+file1.txt 65 
+
+зажмурив
+file1.txt 66 
+
+глаза
+file1.txt 67 118 
+
+сам
+file1.txt 69 
+
+топором
+file1.txt 70 
+
+что
+file1.txt 71 
+file2.txt 61 67 
+
+есть
+file1.txt 72 
+
+силы
+file1.txt 73 
+
+машет
+file1.txt 74 
+
+заревел
+file1.txt 76 
+
+увидя
+file1.txt 77 
+
+издалека
+file1.txt 78 
+
+голя
+file1.txt 79 
+
+думает
+file1.txt 81 
+
+не
+file1.txt 82 
+
+смех
+file1.txt 84 
+
+ли
+file1.txt 85 
+
+послали
+file1.txt 86 
+
+шепчет
+file1.txt 89 
+
+про
+file1.txt 90 
+
+себя
+file1.txt 91 
+
+отцы
+file1.txt 92 
+
+братия
+file1.txt 94 
+
+поминай
+file1.txt 95 
+
+звали
+file1.txt 97 
+
+ожидая
+file1.txt 99 
+
+смерти
+file1.txt 100 
+
+опустил
+file1.txt 101 
+
+голову
+file1.txt 102 
+
+шею
+file1.txt 104 
+
+своей
+file1.txt 105 
+
+лошаденки
+file1.txt 106 
+
+которая
+file1.txt 107 
+
+бежала
+file1.txt 108 
+
+трех
+file1.txt 110 
+
+ногах
+file1.txt 111 
+
+четвертой
+file1.txt 113 
+
+прихрамывала
+file1.txt 114 
+
+у
+file1.txt 115 
+
+запрыгали
+file1.txt 117 
+
+во
+file1.txt 119 
+
+лбу
+file1.txt 120 
+
+часто
+file2.txt 0 
+
+задумываешься
+file2.txt 1 
+
+несколько
+file2.txt 2 
+
+необязательно
+file2.txt 3 
+
+отрешенно
+file2.txt 4 
+
+но
+file2.txt 5 73 
+
+о
+file2.txt 7 
+
+чем
+file2.txt 8 
+
+то
+file2.txt 9 20 26 30 51 95 101 
+
+все
+file2.txt 10 
+
+же
+file2.txt 11 71 
+
+притягательном
+file2.txt 12 
+
+почему
+file2.txt 13 
+
+это
+file2.txt 14 28 
+
+сказки
+file2.txt 15 97 
+
+мы
+file2.txt 16 
+
+возводим
+file2.txt 17 
+
+к
+file2.txt 18 
+
+какому
+file2.txt 19 
+
+лукоморью
+file2.txt 21 
+
+если
+file2.txt 22 48 
+
+край
+file2.txt 24 49 
+
+страны
+file2.txt 25 
+
+понятие
+file2.txt 27 
+
+всё
+file2.txt 31 40 
+
+более
+file2.txt 32 34 
+
+зыбко
+file2.txt 35 
+
+условно
+file2.txt 37 
+
+нам
+file2.txt 39 
+
+больше
+file2.txt 41 
+
+доводится
+file2.txt 42 
+
+бывать
+file2.txt 43 
+
+берегу
+file2.txt 45 
+
+пустынных
+file2.txt 46 
+
+волн
+file2.txt 47 
+
+света
+file2.txt 50 
+
+туда
+file2.txt 52 74 
+
+добру
+file2.txt 53 98 
+
+молодцу
+file2.txt 54 99 
+
+вообще
+file2.txt 55 
+
+путь
+file2.txt 56 
+
+правило
+file2.txt 58 
+
+заказан
+file2.txt 59 
+
+разве
+file2.txt 60 66 
+
+крайнем
+file2.txt 63 
+
+случае
+file2.txt 64 
+
+силу
+file2.txt 69 
+
+его
+file2.txt 70 
+
+оплошности
+file2.txt 72 
+
+тянет
+file2.txt 75 77 
+
+хотя
+file2.txt 78 
+
+бы
+file2.txt 79 
+
+мысленно
+file2.txt 80 
+
+будь
+file2.txt 81 
+
+ты
+file2.txt 82 
+
+хоть
+file2.txt 83 87 
+
+вправду
+file2.txt 85 
+
+дитя
+file2.txt 86 
+
+взрослый
+file2.txt 88 
+
+или
+file2.txt 89 
+
+старик
+file2.txt 90 
+
+ну
+file2.txt 91 
+
+уж
+file2.txt 93 
+
+извечный
+file2.txt 94 
+
+урок
+file2.txt 96 
+
+уже
+file2.txt 102 
+
+ведь
+file2.txt 103 
+
+точно
+file2.txt 104 
+
+безусловен
+file2.txt 105 
+
+advertisements
+file3.txt 0 179 
+
+want
+file3.txt 1 82 
+
+to
+file3.txt 2 5 61 76 78 84 87 92 126 181 195 217 253 
+
+persuade
+file3.txt 3 
+
+us
+file3.txt 4 83 
+
+buy
+file3.txt 6 
+
+particular
+file3.txt 7 
+
+products
+file3.txt 8 
+
+how
+file3.txt 9 67 
+
+do
+file3.txt 10 12 93 
+
+they
+file3.txt 11 72 81 221 
+
+it
+file3.txt 13 21 55 94 112 
+
+let
+file3.txt 14 
+
+s
+file3.txt 15 22 
+
+imagine
+file3.txt 16 
+
+you
+file3.txt 17 26 29 37 44 53 60 141 154 
+
+re
+file3.txt 18 
+
+watching
+file3.txt 19 
+
+tv
+file3.txt 20 
+
+a
+file3.txt 23 34 143 146 186 228 
+
+hot
+file3.txt 24 
+
+evening
+file3.txt 25 
+
+feel
+file3.txt 27 
+
+thirsty
+file3.txt 28 
+
+see
+file3.txt 30 38 142 
+
+an
+file3.txt 31 107 116 
+
+advert
+file3.txt 32 108 117 
+
+for
+file3.txt 33 59 131 188 239 248 256 262 
+
+refreshing
+file3.txt 35 50 176 
+
+drink
+file3.txt 36 51 177 
+
+people
+file3.txt 39 68 
+
+looking
+file3.txt 40 
+
+cool
+file3.txt 41 175 
+
+and
+file3.txt 42 90 104 140 151 158 207 259 
+
+relaxed
+file3.txt 43 
+
+notice
+file3.txt 45 
+
+the
+file3.txt 46 49 98 120 136 160 163 166 174 208 241 
+
+name
+file3.txt 47 161 
+
+of
+file3.txt 48 100 149 162 190 
+
+because
+file3.txt 52 198 
+
+think
+file3.txt 54 
+
+could
+file3.txt 56 
+
+be
+file3.txt 57 85 124 156 196 
+
+useful
+file3.txt 58 
+
+satisfy
+file3.txt 62 
+
+your
+file3.txt 63 
+
+thirst
+file3.txt 64 
+
+advertisers
+file3.txt 65 193 225 
+
+study
+file3.txt 66 
+
+learn
+file3.txt 69 216 
+
+so
+file3.txt 70 130 224 
+
+that
+file3.txt 71 232 
+
+can
+file3.txt 73 109 123 202 
+
+teach
+file3.txt 74 
+
+them
+file3.txt 75 
+
+respond
+file3.txt 77 
+
+their
+file3.txt 79 
+
+advertising
+file3.txt 80 247 
+
+interested
+file3.txt 86 157 
+
+try
+file3.txt 88 
+
+something
+file3.txt 89 
+
+then
+file3.txt 91 
+
+again
+file3.txt 95 
+
+these
+file3.txt 96 
+
+are
+file3.txt 97 180 
+
+elements
+file3.txt 99 
+
+learning
+file3.txt 101 
+
+interest
+file3.txt 102 
+
+experience
+file3.txt 103 
+
+repetition
+file3.txt 105 191 201 
+
+if
+file3.txt 106 115 135 178 
+
+achieve
+file3.txt 110 
+
+this
+file3.txt 111 
+
+is
+file3.txt 113 138 169 185 
+
+successful
+file3.txt 114 230 243 
+
+works
+file3.txt 118 
+
+well
+file3.txt 119 235 
+
+same
+file3.txt 121 167 
+
+technique
+file3.txt 122 168 
+
+used
+file3.txt 125 171 
+
+advertise
+file3.txt 127 
+
+different
+file3.txt 128 249 
+
+things
+file3.txt 129 
+
+example
+file3.txt 132 240 
+
+in
+file3.txt 133 204 
+
+winter
+file3.txt 134 
+
+weather
+file3.txt 137 
+
+cold
+file3.txt 139 
+
+family
+file3.txt 144 
+
+having
+file3.txt 145 
+
+warming
+file3.txt 147 
+
+cup
+file3.txt 148 
+
+tea
+file3.txt 150 164 245 250 
+
+feeling
+file3.txt 152 
+
+cosy
+file3.txt 153 
+
+may
+file3.txt 155 210 
+
+note
+file3.txt 159 
+
+here
+file3.txt 165 
+
+being
+file3.txt 170 
+
+as
+file3.txt 172 
+
+with
+file3.txt 173 
+
+he
+file3.txt 182 
+
+learned
+file3.txt 183 223 236 
+
+there
+file3.txt 184 
+
+need
+file3.txt 187 
+
+lots
+file3.txt 189 
+
+but
+file3.txt 192 
+
+have
+file3.txt 194 222 
+
+careful
+file3.txt 197 
+
+too
+file3.txt 199 
+
+much
+file3.txt 200 
+
+result
+file3.txt 203 
+
+consumer
+file3.txt 205 
+
+tiredness
+file3.txt 206 
+
+message
+file3.txt 209 
+
+fall
+file3.txt 211 
+
+on
+file3.txt 212 
+
+deal
+file3.txt 213 
+
+ears
+file3.txt 214 
+
+consumers
+file3.txt 215 238 
+
+generalize
+file3.txt 218 
+
+from
+file3.txt 219 
+
+what
+file3.txt 220 
+
+sometimes
+file3.txt 226 
+
+copy
+file3.txt 227 
+
+highly
+file3.txt 229 242 
+
+idea
+file3.txt 231 
+
+has
+file3.txt 233 251 
+
+been
+file3.txt 234 
+
+by
+file3.txt 237 
+
+weston
+file3.txt 244 
+
+country
+file3.txt 246 255 261 
+
+led
+file3.txt 252 
+
+daewoo
+file3.txt 254 
+
+automobile
+file3.txt 257 
+
+dealers
+file3.txt 258 
+
+cadbury
+file3.txt 260 
+
+chocolate
+file3.txt 263 
+
+bars
+file3.txt 264 
+

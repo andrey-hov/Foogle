@@ -1,13 +1,22 @@
 import Index
 import re
-
+import os
 
 class Finder:
-    def __init__(self, filenames):
-        self.filenames = filenames
-        self.index = Index.BuildIndex(self.filenames)
+    def __init__(self, folder):
+        if '.txt' in folder:
+            a = [folder]
+        else:
+            a = os.listdir(path=folder)
+            a.remove('stopwords-ru.txt')
+            a.remove(folder + '.txt')
+            os.chdir(folder)
+        self.filenames = a
+        self.index = Index.BuildIndex(self.filenames, folder)
         self.invertedIndex = self.index.totalIndex
         self.regularIndex = self.index.regdex
+        if '.txt' not in folder:
+            os.chdir(r"../")
 
 
     def one_word_query(self, word):
@@ -20,19 +29,19 @@ class Finder:
 
     def free_text_query(self, string):
         pattern = re.compile('[\W_]+')
-        string = pattern.sub(' ',string)
+        string = pattern.sub(' ', string)
         result = []
         for word in string.split():
             result += self.one_word_query(word)
         return self.rankResults(list(set(result)), string)
 
-    def phrase_query(self, string, type_file, exact):
+    def phrase_query(self, string, type_file):
         """
         Принимает фразу и выдает список файлов, в которых она находится
         [file1, file2, ...]
         """
-        pattern = re.compile('[\W_]+')
-        string = pattern.sub(' ',string)
+        #pattern = re.compile('[\W_]+')
+        #string = pattern.sub(' ', string)
         listOfLists, result = [],[]
         for word in string.split():
             listOfLists.append(self.one_word_query(word))
@@ -40,7 +49,6 @@ class Finder:
         for filename in setted:
             temp = []
             if type_file != '0' and not (type_file in filename):
-                exact
                 continue
             for word in string.split():
                 temp.append(self.invertedIndex[word][filename][:])
@@ -79,6 +87,14 @@ class Finder:
         tf = [x/magnitude for x in freq]
         final = [tf[i]*queryidf[i] for i in range(len(self.index.getUniques()))]
         return final
+
+    def find(self, phrases, type):
+        result = []
+        for phrase in phrases.split('|'):
+            a = self.phrase_query(phrase, type)
+            if (a is not None):
+                result.append(a)
+        return result
 
     def queryFreq(self, term, query):
         count = 0

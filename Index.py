@@ -11,14 +11,14 @@ class BuildIndex:
         input = [file1, file2, ...]
     """
 
-    def __init__(self, files):
+    def __init__(self, files, name):
         self.tf = {}
         self.df = {}
         self.idf = {}
         self.filenames = files
         self.file_to_terms = self.process_files()
         self.regdex = self.regIndex()
-        self.totalIndex = self.execute()
+        self.totalIndex = self.execute(name)
         self.vectors = self.vectorize()
         self.mags = self.magnitudes(self.filenames)
         self.populateScores()
@@ -148,8 +148,19 @@ class BuildIndex:
     def generateScore(self, term, document):
         return self.tf[document][term] * self.idf[term]
 
-    def execute(self):
-        return self.fullIndex()
+    def execute(self, name):
+        index = self.fullIndex()
+        if '.txt' not in name:
+            file = open(name + '.txt', 'w+', encoding='utf-8')
+            for word in index:
+                file.write(word + '\n')
+                for filename in index[word]:
+                    file.write(filename + ' ')
+                    for i in index[word][filename]:
+                        file.write(str(i) + ' ')
+                    file.write('\n')
+                file.write("\n")
+        return index
 
     def regIndex(self):
         return self.make_indices(self.file_to_terms)
