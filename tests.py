@@ -30,6 +30,12 @@ class Test(unittest.TestCase):
             ["file2.txt"],
         )
     
+    def test_not_and(self):
+        self.assertEqual(
+            (Foogle.Finder("tests").find("королевна|-да ёмаё", ".txt")),
+            'Не найдено',
+        )
+
     def test_not(self):
         self.assertEqual(
             (Foogle.Finder("tests").find("королевна|лягушка|-ёмаё", ".txt")),
