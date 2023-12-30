@@ -1,6 +1,5 @@
 import unittest
 import Foogle
-import os
 
 
 class Test(unittest.TestCase):
@@ -30,17 +29,11 @@ class Test(unittest.TestCase):
             sorted(list((Foogle.Finder("tests").find("добру молодцу", ".txt")))),
             ["file2.txt"],
         )
-
-    def test_phrase(self):
+    
+    def test_not(self):
         self.assertEqual(
-            (Foogle.Finder("file1.txt").phrase_query("королевна видит", ".txt")),
-            ["file1.txt"],
-        )
-
-    def test_free_text(self):
-        self.assertEqual(
-            (Foogle.Finder("file1.txt").free_text_query("королевна видит")),
-            ["file1.txt"],
+            (Foogle.Finder("tests").find("королевна|лягушка|-ёмаё", ".txt")),
+            'Не найдено',
         )
 
     def test_many_files(self):

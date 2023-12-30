@@ -4,19 +4,15 @@ import os
 
 class Finder:
     def __init__(self, folder):
-        if '.txt' in folder:
-            a = [folder]
-        else:
-            a = os.listdir(path=folder)
-            a.remove('stopwords-ru.txt')
-            a.remove(folder + '.txt')
-            os.chdir(folder)
+        a = os.listdir(path=folder)
+        a.remove('stopwords-ru.txt')
+        a.remove(folder + '.txt')
+        os.chdir(folder)
         self.filenames = a
         self.index = Index.BuildIndex(self.filenames, folder)
         self.invertedIndex = self.index.totalIndex
         self.regularIndex = self.index.regdex
-        if '.txt' not in folder:
-            os.chdir(r"../")
+        os.chdir(r"../")
 
 
     def one_word_query(self, word):
@@ -90,14 +86,23 @@ class Finder:
 
     def find(self, phrases, type):
         result = []
+        delete = []
         for phrase in phrases.split('|'):
-            a = self.phrase_query(phrase, type)
-            if (a is not None):
-                result = [*result, *a]
+            if phrase[0] == '-':
+                a = self.phrase_query(phrase[1:], type)
+                if (a is not None):
+                    delete = [*delete, *a]
+            else:
+                a = self.phrase_query(phrase, type)
+                if (a is not None):
+                    result = [*result, *a]
         new = set()
         for i in range(len(result)):
             if result[i] != 'Не найдено':
                 new.add(result[i])
+        for d in delete:
+            if d in new:
+                new.remove(d)
         if len(new) == 0:
             new = 'Не найдено'
         return new
