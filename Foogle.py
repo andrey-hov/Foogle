@@ -6,10 +6,11 @@ class Finder:
     def __init__(self, folder):
         a = os.listdir(path=folder)
         a.remove('stopwords-ru.txt')
-        a.remove(folder + '.txt')
+        if 'index.txt' in a:
+            a.remove('index.txt')
         os.chdir(folder)
         self.filenames = a
-        self.index = Index.BuildIndex(self.filenames, folder)
+        self.index = Index.BuildIndex(self.filenames)
         self.invertedIndex = self.index.totalIndex
         self.regularIndex = self.index.regdex
         os.chdir(r"../")
