@@ -52,6 +52,12 @@ class Test(unittest.TestCase):
         self.assertEqual(
             (Foogle.Finder("tests").phrase_query("ёмаё", ".txt"))[0], "file2.txt"
         )
+    
+    def test_lang(self):
+        self.assertEqual(
+            (Foogle.Finder("tests").phrase_query("want", ".txt")),
+            ["file3.txt"],
+        )
 
 
 if __name__ == "__main__":
