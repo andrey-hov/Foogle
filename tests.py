@@ -5,13 +5,8 @@ import Foogle
 class Test(unittest.TestCase):
     def test_find(self):
         self.assertEqual(
-            (
-                Foogle.Finder("tests").find(
-                    "бежала на трех ногах|царевна|королевна", ".txt"
-                )
-            ).pop(),
-            "file1.txt",
-        )
+            (Foogle.Finder("tests").find("бежала на трех ногах|царевна|королевна", ".txt")).pop(),
+            "file1.txt")
 
     def test_one_word(self):
         self.assertEqual(
