@@ -27,7 +27,7 @@ class BuildIndex:
         """
             Принимает файл и возвращает словарь слов с позициями в файле
             input = filenames
-            output = {word1: [pos1, pos2], word2: [pos2, pos434], ...}
+            output = {file1: [word1, word2], file2: [word1, word2], ...}
         """
         file_to_terms = {}
         with open('stopwords-ru.txt') as file:

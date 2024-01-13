@@ -1,3 +1,12 @@
+hello
+file.txt 0 3 
+
+my
+file.txt 1 
+
+friend
+file.txt 2 
+
 королевна
 file1.txt 0 
 
